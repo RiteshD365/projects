@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//s ans //r
 const Select = () => {
   const [selectedValues, setSelectedValues] = useState([]);
   const [currentValue, setCurrentValue] = useState('');
