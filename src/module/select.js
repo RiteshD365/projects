@@ -44,7 +44,7 @@ const Select = () => {
         {selectedValues.map((item, index) => (
           <div key={index} style={{ margin: '0 10px' }}>
             {[...Array(item.count)].map((value, i) => (
-              <div key={i}>{item.value}</div>
+              <div key={i}>option {item.value}</div>  
             ))}
           </div>
         ))}
